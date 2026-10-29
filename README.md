@@ -21,6 +21,18 @@
 > [lyrhub/tvbox-checker-app](https://github.com/lyrhub/tvbox-checker-app)（站点级验证思路）的功能互补点。
 > 仅做**可用性检测与汇总**，不存储、不分发任何影视内容。
 
+
+## 🌐 在线地址（本仓库每日自动更新）
+
+| 用途 | 地址 |
+|---|---|
+| 体检面板 | https://guxia66898.github.io/tvbox-hub/dist/ |
+| 多仓订阅（影视仓） | `https://guxia66898.github.io/tvbox-hub/dist/merged.json` |
+| 精选订阅（仅种子源） | `https://guxia66898.github.io/tvbox-hub/dist/curated.json` |
+| 单仓配置（FongMi/TVBox） | `https://guxia66898.github.io/tvbox-hub/dist/tvbox.json` |
+
+由 GitHub Actions 每天 UTC 21:30（北京时间 05:30）自动跑一遍并提交结果。
+
 ## 目录
 
 ```
