@@ -5,42 +5,78 @@ on:
     - cron: '30 21 * * *'
   workflow_dispatch:
 
+# 需要写权限才能把产物提交回仓库
 permissions:
   contents: write
+
+concurrency:
+  group: hub-run
+  cancel-in-progress: false
 
 jobs:
   hub:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: true   # 让 git push 复用 GITHUB_TOKEN
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Self-check (offline tests)
+        run: |
+          python tests/test_parser.py
+          python tests/test_merge.py
+          python tests/test_hub_offline.py
+          python tests/test_discover.py
+          python tests/test_promote.py
+          python tests/test_jarcheck.py
 
       - name: Run hub
         run: |
           CONFIG=config.json
           [ -f "$CONFIG" ] || CONFIG=config.example.json
+          echo "using $CONFIG"
           python run.py --config $CONFIG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONIOENCODING: utf-8
+
+      - name: Audit artifacts
+        if: always()
+        run: python tools/audit.py || true
 
       - name: Commit artifacts
         run: |
+          set -e
           git config user.name 'tvbox-hub-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add dist history
-          git diff --cached --quiet || (git commit -m "hub: daily run $(date -u +%F)" && git push)
+          # dist/ history/ 在 .gitignore 中，需要 -f 强制加入
+          git add -f dist history || true
+          if git diff --cached --quiet; then
+            echo "no artifact changes to commit"
+            exit 0
+          fi
+          git commit -m "hub: daily run $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push origin HEAD:${GITHUB_REF_NAME}
 
       - name: Upload dist artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: dist
-          path: dist
+          name: dist-${{ github.run_number }}
+          path: |
+            dist
+            history
+          retention-days: 14
+          if-no-files-found: warn

@@ -1,0 +1,113 @@
+{
+  "_说明": "由 hub.discover 自动维护：发现的候选须实测解析通过才入库；连续失败达到阈值的条目自动淘汰。人工种子请写 lines.json。",
+  "entries": [
+    {
+      "name": "jsm.json",
+      "url": "https://g.3344550.xyz/https://raw.githubusercontent.com/jigedos/1024/master/jsm.json",
+      "source": "index",
+      "kind": "single",
+      "sites": 46,
+      "subs": 0,
+      "first_seen": "2026-10-29T02:38:05.147004+00:00",
+      "last_ok": "2026-10-29T03:45:41.786474+00:00",
+      "ok": 9,
+      "fail": 0
+    },
+    {
+      "name": "js.json",
+      "url": "https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "source": "index",
+      "kind": "single",
+      "sites": 298,
+      "subs": 0,
+      "first_seen": "2026-10-29T03:10:30.867575+00:00",
+      "last_ok": "2026-10-29T03:45:41.786474+00:00",
+      "ok": 6,
+      "fail": 0
+    },
+    {
+      "name": "001.json",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/maoystv/6/main/001.json",
+      "source": "index",
+      "kind": "single",
+      "sites": 168,
+      "subs": 0,
+      "first_seen": "2026-10-29T03:41:14.862022+00:00",
+      "last_ok": "2026-10-29T03:45:41.786474+00:00",
+      "ok": 2,
+      "fail": 0
+    },
+    {
+      "name": "fish.json",
+      "url": "https://6800.kstore.vip/fish.json",
+      "source": "index",
+      "kind": "single",
+      "sites": 104,
+      "subs": 0,
+      "first_seen": "2026-10-29T03:41:14.862022+00:00",
+      "last_ok": "2026-10-29T03:45:41.786474+00:00",
+      "ok": 2,
+      "fail": 0
+    },
+    {
+      "name": "cb-tvbox1",
+      "url": "https://codeberg.org/zkk2233/tvbox1/raw/branch/main/R18.json",
+      "source": "codeberg",
+      "kind": "single",
+      "sites": 101,
+      "subs": 0,
+      "first_seen": "2026-10-29T03:41:14.862022+00:00",
+      "last_ok": "2026-10-29T03:45:41.786474+00:00",
+      "ok": 2,
+      "fail": 0
+    },
+    {
+      "name": "wex.json",
+      "url": "https://d.kstore.dev/download/9280/wex.json",
+      "source": "index",
+      "kind": "single",
+      "sites": 63,
+      "subs": 0,
+      "first_seen": "2026-10-29T03:41:14.862022+00:00",
+      "last_ok": "2026-10-29T03:45:41.786474+00:00",
+      "ok": 2,
+      "fail": 0
+    },
+    {
+      "name": "api.json",
+      "url": "http://box.ufuzi.com/tv/qq/短剧频道/api.json",
+      "source": "index",
+      "kind": "single",
+      "sites": 35,
+      "subs": 0,
+      "first_seen": "2026-10-29T03:41:14.862022+00:00",
+      "last_ok": "2026-10-29T03:45:41.786474+00:00",
+      "ok": 2,
+      "fail": 0
+    },
+    {
+      "name": "all.json",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVBox/master/all.json",
+      "source": "index",
+      "kind": "multi_urls",
+      "sites": 0,
+      "subs": 7,
+      "first_seen": "2026-10-29T03:41:14.862022+00:00",
+      "last_ok": "2026-10-29T03:45:41.786474+00:00",
+      "ok": 2,
+      "fail": 0
+    },
+    {
+      "name": "py.json",
+      "url": "https://raw.githubusercontent.com/UndCover/PyramidStore/main/py.json",
+      "source": "index",
+      "kind": "single",
+      "sites": 23,
+      "subs": 0,
+      "first_seen": "2026-10-29T03:41:14.862022+00:00",
+      "last_ok": "2026-10-29T03:45:41.786474+00:00",
+      "ok": 2,
+      "fail": 0
+    }
+  ]
+}

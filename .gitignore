@@ -5,11 +5,11 @@ __pycache__/
 .venv/
 venv/
 
-# 运行时产物（由流水线生成，不入库）
+# 流水线产物（Actions 会用 git add -f 强制提交，本地保持忽略）
 dist/
 history/
-seeds/auto.json
-seeds/promote.json
+
+# 本地覆盖配置
 config.json
 
 # 本地运行日志
