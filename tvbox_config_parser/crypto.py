@@ -1,9 +1,8 @@
 """CatVod 2423（$#key#$cipher+iv）AES-128-CBC Hex 加密配置解密。
 
-文件本身是字节流的 hex 编码：$# + key + #$ + cipherHex + ivStr。
-- "2423" 即 "$#" 的字节 hex（0x24 0x23），"2324" 即 "#$"。
-- IV 兼容两种形态：13 位时间戳字符串（补 '0' 到 16 字节）与完整 16 字节。
-- key 为字符串字节，右侧补 '0' 到 16 字节（超长截断）。
+格式依据：TVBox / CatVod 生态公开的传输约定；实现参考了
+yz8023/ysc-helper-android（无 LICENSE 文件）中的方案描述，Python 侧为独立重写。
+详见项目根 NOTICE。
 """
 from __future__ import annotations
 

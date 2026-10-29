@@ -317,6 +317,46 @@ python run.py --no-jar-check      # 跳过（省 30~60 秒）
 - 解析库发 PyPI / npm，并提供 MCP server 供 AI 助手调用；
 - 2423 密钥库：对失败解密的线路做社区密钥聚合。
 
+
+## 致谢与许可合规
+
+这个项目站在 TVBox / 影视仓 社区很多人的成果之上。完整的三方声明见 [NOTICE](NOTICE)。
+
+### 代码级参考
+
+| 项目 | 许可 | 本项目用到什么 |
+|---|---|---|
+| [yz8023/ysc-helper-android](https://github.com/yz8023/ysc-helper-android) | 仓库无 LICENSE 文件（保留所有权利） | **CatVod 2423 AES 解密方案、图片隐写提取、注释剥离状态机、SSRF 拦截分类**。这些是生态内公开的**传输格式约定**，本项目用 Python 独立重写（命名、结构、错误处理均为自有），**未逐行复制 Kotlin 源码**。若作者认为不妥，相关模块可仅依据格式规范重写。 |
+| [tengxiaobao/tvbox-source-aggregator](https://gitee.com/tengxiaobao/tvbox-source-aggregator)（[GitHub 镜像](https://github.com/riowang88/tvbox-source-aggregator)） | 仓库无 LICENSE 文件 | **`hub/merge.py` 的算法蓝本**：全局 spider 投票、per-site `jar` 分配、相对路径解析、`key\|api` 去重加后缀。仅借鉴思路并用 Python 重实现，**未复制任何 TypeScript 源码，也未再分发其文件**。 |
+| [zhuzhuyule/juhe-subhub](https://github.com/zhuzhuyule/juhe-subhub) | **MIT** | 三产物结构（聚合/精选/单仓）＋每日一轮＋体检面板的运营模型。 |
+
+### 设计思路参考
+
+| 项目 | 许可 | 借鉴点 |
+|---|---|---|
+| [fish2018/tvbox](https://github.com/fish2018/tvbox) | 无 LICENSE | 接口去重策略、GitHub 代理前缀剥离 |
+| [lyrhub/tvbox-checker-app](https://github.com/lyrhub/tvbox-checker-app) | 无 LICENSE | L2 站点级抽样设计（type 0/1 CMS API 探测） |
+| [Guovin/iptv-api](https://github.com/Guovin/iptv-api) | **AGPL-3.0** | 仅流水线形态启发（采集→校验→测速→发布）。**不含任何 AGPL 代码**，本项目为 MIT。 |
+| [FongMi/TV](https://github.com/FongMi/TV) | **GPL-3.0** | 仅用于理解 TVBox 配置 JSON 结构（数据格式不受版权保护），**不含其代码**。 |
+
+### 数据来源与索引页
+
+流水线默认会抓取以下社区维护者的索引页来发现新配置（`hub/discover.py`）。它们的整理工作省了大量时间：
+
+- [Zhou-Li-Bin/Tvbox-QingNing](https://github.com/Zhou-Li-Bin/Tvbox-QingNing) — README 本身就是 76 条链接的配置索引
+- [laoma528/awesome-zhuiju-free](https://github.com/laoma528/awesome-zhuiju-free) — **CC-BY-4.0**，按其要求在此署名
+- [youhunwl/TVAPP](https://github.com/youhunwl/TVAPP) — **Apache-2.0**
+- [dongyubin/IPTV](https://github.com/dongyubin/IPTV)、[wuxierj/TVBox](https://github.com/wuxierj/TVBox)、[youhunwl/TVBox](https://github.com/youhunwl/TVBox)
+
+`seeds/lines.json` 的种子表源自「影视仓接口助手」v1.0 的内置线路表，以及上述仓库中逐条实测通过的条目。
+
+### 上游配置维护者
+
+每条被探测的配置 URL 都由独立的社区维护者发布。生成的产物里保留了他们起的名字（`name` 字段）——本项目不主张对任何内容的所有权，也不对其可用性负责。
+
+> **关于无 LICENSE 的项目**：默认版权下「无许可证 = 保留所有权利」。本项目的处理方式是：只重写**公开的格式约定**与**算法思路**，不复制源码文件、不再分发其代码；同时在 [NOTICE](NOTICE) 中明确标注来源与用途。如果你是其作者并希望调整署名方式，欢迎提 issue。
+
+
 ## 合规声明
 
 本项目只对公开接口做**可用性检测、测速与格式转换**，不抓取、不存储、不分发任何影视内容；

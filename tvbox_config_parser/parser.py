@@ -1,4 +1,8 @@
-"""TVBox/影视仓 配置解析与分类：明文/带注释 JSON、图片隐写、2423 AES、纯 Base64。"""
+"""TVBox/影视仓 配置解析与分类：明文/带注释 JSON、图片隐写、2423 AES、纯 Base64。
+
+注释剥离状态机与隐写提取方案参考 yz8023/ysc-helper-android（无 LICENSE 文件），
+Python 侧为独立重写。详见项目根 NOTICE。
+"""
 from __future__ import annotations
 
 import json

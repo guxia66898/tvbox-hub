@@ -205,6 +205,37 @@ python run.py --no-jar-check      # skip jar probing (saves 30–60 s)
 | [lyrhub/tvbox-checker-app](https://github.com/lyrhub/tvbox-checker-app) | site-level connectivity and speed tests | L2 sampling design |
 | [tengxiaobao/tvbox-source-aggregator](https://gitee.com/tengxiaobao/tvbox-source-aggregator) | multi-source merge service | **`hub/merge.py` blueprint**: relative-path resolution, global spider voting, per-site `jar` allocation, `key\|api` dedupe with suffixing, host-based rule merging |
 
+
+## Acknowledgements & license compliance
+
+This project builds on the work of the TVBox / YingShiCang community. Full third-party
+notices are in [NOTICE](NOTICE).
+
+| Project | License | What was used |
+|---|---|---|
+| [yz8023/ysc-helper-android](https://github.com/yz8023/ysc-helper-android) | **no LICENSE file** (all rights reserved by default) | CatVod `2423` AES scheme, image-steganography extraction, comment-stripping state machine, SSRF blocklist *categories*. These are publicly established **wire-format conventions**; the Python code here is an independent re-expression (own naming, structure, error handling) — **no Kotlin source was copied verbatim**. |
+| [tengxiaobao/tvbox-source-aggregator](https://gitee.com/tengxiaobao/tvbox-source-aggregator) ([GitHub mirror](https://github.com/riowang88/tvbox-source-aggregator)) | **no LICENSE file** | Blueprint for `hub/merge.py`: global spider voting, per-site `jar` allocation, relative-path resolution, `key\|api` dedupe with suffixing. Re-implemented in Python; **no TypeScript source is copied or redistributed**. |
+| [zhuzhuyule/juhe-subhub](https://github.com/zhuzhuyule/juhe-subhub) | **MIT** | Three-artifact layout and the daily-run + health-panel operating model. |
+| [fish2018/tvbox](https://github.com/fish2018/tvbox) | no LICENSE | Dedupe strategy, GitHub proxy-prefix stripping. |
+| [lyrhub/tvbox-checker-app](https://github.com/lyrhub/tvbox-checker-app) | no LICENSE | L2 site-level sampling design. |
+| [Guovin/iptv-api](https://github.com/Guovin/iptv-api) | **AGPL-3.0** | Pipeline shape inspiration only — **no AGPL code included**; this project is MIT. |
+| [FongMi/TV](https://github.com/FongMi/TV) | **GPL-3.0** | Understanding of the config JSON structure (a data format is not copyrightable) — **no code included**. |
+
+Default index pages crawled by `hub/discover.py` are maintained by
+[Zhou-Li-Bin/Tvbox-QingNing](https://github.com/Zhou-Li-Bin/Tvbox-QingNing),
+[laoma528/awesome-zhuiju-free](https://github.com/laoma528/awesome-zhuiju-free) (**CC-BY-4.0** — attribution given here),
+[youhunwl/TVAPP](https://github.com/youhunwl/TVAPP) (**Apache-2.0**),
+[dongyubin/IPTV](https://github.com/dongyubin/IPTV), [wuxierj/TVBox](https://github.com/wuxierj/TVBox)
+and [youhunwl/TVBox](https://github.com/youhunwl/TVBox).
+
+Every configuration URL probed here is published by an independent maintainer; their names are
+preserved in generated artifacts. No ownership is claimed over that content.
+
+> **On projects without a LICENSE file**: absent a license, default copyright applies. This project
+> therefore re-expresses only publicly established format conventions and algorithm approaches —
+> it does not copy source files or redistribute any upstream code, and it records provenance in
+> [NOTICE](NOTICE). Maintainers who would like different attribution are welcome to open an issue.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

@@ -1,11 +1,7 @@
-"""单仓配置合并引擎（算法移植自 tvbox-source-aggregator 的 merger/parser/dedup）。
+"""单仓配置合并引擎。
 
-关键能力：
-- 相对路径转绝对（基于配置源 URL），支持 ./ ../ // 三种形态
-- 全局 spider 投票制 + per-site jar 字段分配（让不同来源的 type:3 站点共存）
-- 站点去重键 key|api，key 冲突自动加后缀
-- parses 按 url|type 去重、lives 按 url 去重、rules 按 host 合并、hosts 按域名覆盖
-- 清洗 127.0.0.1/localhost 等本地引用
+算法蓝本：tengxiaobao/tvbox-source-aggregator（无 LICENSE 文件）
+的 merger/parser/dedup 设计；本项目以 Python 重实现，未复制其源码。详见 NOTICE。
 """
 from __future__ import annotations
 

@@ -1,4 +1,8 @@
-"""HTTP 抓取：SSRF 防护、中文域名 IDNA、gzip 解压、TTFB 计时。"""
+"""HTTP 抓取：SSRF 防护、中文域名 IDNA、gzip 解压、TTFB 计时。
+
+SSRF 拦截的地址分类参考 yz8023/ysc-helper-android（无 LICENSE 文件）的
+UrlSecurityValidator 思路，Python 侧独立实现。详见项目根 NOTICE。
+"""
 from __future__ import annotations
 
 import asyncio

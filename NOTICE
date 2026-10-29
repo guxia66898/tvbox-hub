@@ -1,0 +1,138 @@
+tvbox-hub
+Copyright 2026 tvbox-hub contributors
+Licensed under the MIT License (see LICENSE)
+
+================================================================================
+THIRD-PARTY NOTICES
+================================================================================
+
+This project builds on the work of the TVBox / YingShiCang community. The
+following projects were consulted; some contributed code-level algorithms,
+others contributed data sources or design ideas.
+
+--------------------------------------------------------------------------------
+1. yz8023/ysc-helper-android  —  CODE-LEVEL REFERENCE
+--------------------------------------------------------------------------------
+   https://github.com/yz8023/ysc-helper-android
+
+   Used for:
+     - CatVod 2423 ( $#key#$cipher+iv ) AES-128-CBC decryption scheme
+     - Image-steganography extraction ( "**" + Base64 appended after image EOF )
+     - Comment / trailing-comma stripping state machine for lenient JSON
+     - SSRF blocklist categories (loopback / private / link-local / CGNAT)
+
+   Affected files:
+     - tvbox_config_parser/crypto.py
+     - tvbox_config_parser/stego.py
+     - tvbox_config_parser/parser.py  (strip_comments_and_trailing_commas)
+     - hub/fetch.py                   (validate_public_host)
+
+   License status: the upstream repository contains **no LICENSE file**. Under
+   default copyright this means all rights are reserved by its author. The
+   Python code in this project is a re-expression of the CatVod *wire formats*
+   (which are publicly documented ecosystem conventions), written independently
+   in Python with this project's own naming, structure and error handling.
+   No Kotlin source file was copied verbatim.
+
+   If the author of ysc-helper-android objects to this use, the affected
+   modules will be rewritten from the format specification alone.
+
+--------------------------------------------------------------------------------
+2. tengxiaobao/tvbox-source-aggregator  —  ALGORITHM BLUEPRINT
+--------------------------------------------------------------------------------
+   https://gitee.com/tengxiaobao/tvbox-source-aggregator
+   https://github.com/riowang88/tvbox-source-aggregator   (mirror)
+
+   Used for the design of hub/merge.py:
+     - global spider selection by vote (counts type:3 sites per jar)
+     - per-site `jar` field allocation so type:3 sites from different
+       sources can coexist
+     - relative-path resolution against the source config URL
+     - `key|api` site dedupe with automatic key suffixing on collision
+     - parse dedupe by `url|type`, live dedupe by `url`, rule merge by `host`
+
+   License status: no LICENSE file found in the repository. Only the *approach*
+   was reimplemented in Python; no TypeScript source was copied into this
+   project, and no source file from it is redistributed here.
+
+--------------------------------------------------------------------------------
+3. zhuzhuyule/juhe-subhub  —  MIT
+--------------------------------------------------------------------------------
+   https://github.com/zhuzhuyule/juhe-subhub
+   License: MIT
+
+   Used for: the three-artifact layout (merged / curated / single-warehouse)
+   and the "one run per day + health panel" operating model.
+
+--------------------------------------------------------------------------------
+4. fish2018/tvbox  —  design reference
+--------------------------------------------------------------------------------
+   https://github.com/fish2018/tvbox
+   License: no LICENSE file found.
+
+   Used for: interface dedupe strategy and GitHub proxy-prefix stripping.
+
+--------------------------------------------------------------------------------
+5. lyrhub/tvbox-checker-app  —  design reference
+--------------------------------------------------------------------------------
+   https://github.com/lyrhub/tvbox-checker-app
+   License: no LICENSE file found.
+
+   Used for: the L2 site-level sampling design (type 0/1 CMS API probing).
+
+--------------------------------------------------------------------------------
+6. Guovin/iptv-api  —  AGPL-3.0 (idea only)
+--------------------------------------------------------------------------------
+   https://github.com/Guovin/iptv-api
+   License: GNU Affero General Public License v3.0
+
+   Used for: pipeline shape inspiration only (collect -> verify -> speed-test ->
+   publish). No code from this project is included or derived. This project is
+   MIT-licensed and does not incorporate AGPL-covered code.
+
+--------------------------------------------------------------------------------
+7. FongMi/TV  —  GPL-3.0 (format specification only)
+--------------------------------------------------------------------------------
+   https://github.com/FongMi/TV
+   License: GPL-3.0
+
+   Used for: understanding the TVBox configuration JSON structure
+   (sites / parses / lives / spider / storeHouse / urls). A data format is not
+   copyrightable; no code from this project is included.
+
+--------------------------------------------------------------------------------
+8. INDEX / DATA SOURCES  (configuration URLs are discovered from these)
+--------------------------------------------------------------------------------
+   The pipeline mines public configuration URLs from community index pages.
+   Attribution is given to the maintainers whose pages are crawled by default
+   (hub/discover.py :: DEFAULT_INDEX_PAGES):
+
+     - Zhou-Li-Bin/Tvbox-QingNing   https://github.com/Zhou-Li-Bin/Tvbox-QingNing
+     - laoma528/awesome-zhuiju-free https://github.com/laoma528/awesome-zhuiju-free
+                                    License: CC-BY-4.0  (attribution required)
+     - youhunwl/TVAPP               https://github.com/youhunwl/TVAPP
+                                    License: Apache-2.0
+     - dongyubin/IPTV               https://github.com/dongyubin/IPTV
+     - wuxierj/TVBox                https://github.com/wuxierj/TVBox
+     - youhunwl/TVBox               https://github.com/youhunwl/TVBox
+
+   The seed list in seeds/lines.json originates from the built-in line table of
+   the "影视仓接口助手" v1.0 Android app, plus verified entries from the
+   repositories listed above. Individual configuration URLs remain the property
+   of their respective publishers; this project only records and tests them.
+
+--------------------------------------------------------------------------------
+9. UPSTREAM CONFIG MAINTAINERS
+--------------------------------------------------------------------------------
+   Every configuration URL probed by this tool is published by an independent
+   maintainer. Their names are preserved in the `name` fields of the generated
+   artifacts. This project does not claim ownership of, or responsibility for,
+   any of that content.
+
+================================================================================
+NOTICE ON CONTENT
+================================================================================
+tvbox-hub performs availability checks on publicly published configuration
+metadata only. It does not host, mirror, transcode or redistribute any audio,
+video or other media content. Users are responsible for complying with the laws
+of their jurisdiction and with the terms set by each upstream provider.
