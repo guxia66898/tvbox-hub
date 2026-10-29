@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 from tvbox_config_parser import (
     KIND_SINGLE, KIND_STORE, KIND_URLS,
-    clean_source_url, normalize_url,
+    clean_source_url, encode_url, normalize_url,
 )
 from .probe import flatten
 
@@ -27,8 +27,18 @@ def _sort_key(n: dict):
 
 def _entry(n: dict) -> dict:
     url = clean_source_url(n["url"])
+    url = encode_url(url)
     name = n.get("name") or urllib.parse.urlsplit(url).netloc
     return {"name": name, "url": url}
+
+
+def _entry_mirrored(n: dict, mirrors: list[str] | None, use_mirror: bool) -> dict:
+    """导出条目：清洗 + 编码 + （可选）GitHub 镜像改写。"""
+    e = _entry(n)
+    if use_mirror:
+        from .mirror import to_mirror
+        e["url"] = encode_url(to_mirror(e["url"], mirrors))
+    return e
 
 
 def _dedupe(entries: list[dict], cap: int = 500) -> dict:
@@ -45,20 +55,80 @@ def _dedupe(entries: list[dict], cap: int = 500) -> dict:
     return {"urls": out}
 
 
-def build_merged(nodes: list[dict]) -> dict:
+def _localize_urls(cfg_data: dict, cfg) -> None:
+    """把单仓配置里的所有 URL 就地”电视端化“：百分号编码 + GitHub 镜像。
+
+    实测教训（安卓盒子 import merged.json 后点不开）：
+    - `.../jar/潇洒.jar` 这种中文路径不编码，客户端 HttpUrl.parse() 返回 null，
+      spider jar 加载失败 → 所有 type:3 站点全部报废（表现为点播无反应）
+    - `raw.githubusercontent.com` 直链在国内被阻断 → jar 拉不到
+    两者叠加就是”名称能显示、内容全空白“。
+    """
+    from .mirror import to_mirror
+    use_mirror = bool(getattr(cfg, "mirror_enabled", True))
+    mirrors = getattr(cfg, "mirror_prefixes", None) or None
+
+    def fix(u):
+        if not isinstance(u, str) or not u.strip():
+            return u
+        # jar/spider 带 ;md5; 后缀，只处理前缀部分
+        head, sep, rest = u.partition(";md5;")
+        head = encode_url(clean_source_url(head))
+        if use_mirror:
+            head = encode_url(to_mirror(head, mirrors))
+        return head + sep + rest
+
+    if isinstance(cfg_data.get("spider"), str):
+        cfg_data["spider"] = fix(cfg_data["spider"])
+    for s in cfg_data.get("sites") or []:
+        if not isinstance(s, dict):
+            continue
+        if isinstance(s.get("jar"), str):
+            s["jar"] = fix(s["jar"])
+        if isinstance(s.get("playUrl"), str):
+            s["playUrl"] = fix(s["playUrl"])
+        if isinstance(s.get("api"), str) and s["api"].startswith(("http://", "https://")):
+            s["api"] = fix(s["api"])
+        ext = s.get("ext")
+        if isinstance(ext, str) and ext.startswith(("http://", "https://")):
+            s["ext"] = fix(ext)
+    for l in cfg_data.get("lives") or []:
+        if not isinstance(l, dict):
+            continue
+        for k in ("url", "api", "jar", "epg"):
+            if isinstance(l.get(k), str) and l[k].startswith(("http://", "https://")):
+                l[k] = fix(l[k])
+    for p in cfg_data.get("parses") or []:
+        if isinstance(p, dict) and isinstance(p.get("url"), str) \
+                and p["url"].startswith(("http://", "https://")):
+            p["url"] = fix(p["url"])
+
+
+def build_merged(nodes: list[dict], cfg=None) -> dict:
     """多仓聚合配置：全部可用单仓叶子，按 L2 通过率/测速排序。"""
     leaves = [n for n in flatten(nodes)
               if n.get("kind") == KIND_SINGLE and n.get("status") == "ok"]
     leaves.sort(key=_sort_key)
-    return _dedupe([_entry(n) for n in leaves])
+    mirrors, use = _mirror_opts(cfg)
+    return _dedupe([_entry_mirrored(n, mirrors, use) for n in leaves])
 
 
-def build_curated(nodes: list[dict]) -> dict:
+def build_curated(nodes: list[dict], cfg=None) -> dict:
     """精选配置：只含种子线路中可用的单仓。"""
     leaves = [n for n in flatten(nodes)
               if n.get("kind") == KIND_SINGLE and n.get("status") == "ok" and n.get("is_seed")]
     leaves.sort(key=_sort_key)
-    return _dedupe([_entry(n) for n in leaves])
+    mirrors, use = _mirror_opts(cfg)
+    return _dedupe([_entry_mirrored(n, mirrors, use) for n in leaves])
+
+
+def _mirror_opts(cfg) -> tuple[list[str] | None, bool]:
+    """从配置取镜像开关与列表（缺省开启）。"""
+    if cfg is None:
+        return None, True
+    use = bool(getattr(cfg, "mirror_enabled", True))
+    mirrors = getattr(cfg, "mirror_prefixes", None) or None
+    return mirrors, use
 
 
 def build_tvbox_config(nodes: list[dict]) -> dict | None:
@@ -169,11 +239,13 @@ def write_artifacts(nodes: list[dict], cfg, started_at: datetime, harvest_stats:
 
     # 三个配置产物 + 报告
     p_merged = os.path.join(out_dir, "merged.json")
-    _write_json(p_merged, build_merged(nodes))
+    _write_json(p_merged, build_merged(nodes, cfg))
     p_curated = os.path.join(out_dir, "curated.json")
-    _write_json(p_curated, build_curated(nodes))
+    _write_json(p_curated, build_curated(nodes, cfg))
     p_tvbox = os.path.join(out_dir, "tvbox.json")
     merged_cfg = build_tvbox_config(nodes)
+    if merged_cfg:
+        _localize_urls(merged_cfg, cfg)
     # jar 可达性检查：给指向失效 jar 的站点打标记（type:3 站点的硬依赖）
     if merged_cfg and getattr(cfg, "jar_check_enabled", False):
         try:

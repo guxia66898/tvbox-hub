@@ -4,5 +4,17 @@
     "available": 211,
     "lines_total": 243,
     "avg_total_ms": 523.3
+  },
+  {
+    "date": "10-29 12:48",
+    "available": 84,
+    "lines_total": 243,
+    "avg_total_ms": 734.2
+  },
+  {
+    "date": "10-29 13:14",
+    "available": 197,
+    "lines_total": 243,
+    "avg_total_ms": 1949.3
   }
 ]

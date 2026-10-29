@@ -47,6 +47,8 @@ def _parse_args(argv=None):
                    help="连续多少轮可用后晋升为种子（默认 3）")
     p.add_argument("--no-jar-check", dest="jar_check_enabled", action="store_false", default=None,
                    help="跳过 jar 可达性检查（省 30~60 秒）")
+    p.add_argument("--no-mirror", dest="mirror_enabled", action="store_false", default=None,
+                   help="导出时不对 GitHub 直链套加速镜像（国内设备可能拉不到）")
     return p.parse_args(argv)
 
 
@@ -98,6 +100,7 @@ def main(argv=None) -> int:
         "discover_enabled": args.discover_enabled, "discover_max": args.discover_max,
         "promote_enabled": args.promote_enabled, "promote_after": args.promote_after,
         "jar_check_enabled": args.jar_check_enabled,
+        "mirror_enabled": args.mirror_enabled,
     }
     cfg = HubConfig.from_file(args.config, overrides)
     started_at = datetime.now(timezone.utc)

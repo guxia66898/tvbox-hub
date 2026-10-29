@@ -42,6 +42,9 @@ class HubConfig:
     # jar 可达性检查（type:3 站点依赖 jar，失效 jar 下的站点必然不可用）
     jar_check_enabled: bool = True
     jar_check_workers: int = 12
+    # 导出层：GitHub 直链镜像改写（国内电视台/盒子直连 raw.githubusercontent 不通）
+    mirror_enabled: bool = True
+    mirror_prefixes: list | None = None
 
     @classmethod
     def from_file(cls, path: str | None, overrides: dict | None = None) -> "HubConfig":

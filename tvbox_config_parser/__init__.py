@@ -22,7 +22,7 @@ from .parser import (
     strip_comments_and_trailing_commas,
 )
 from .stego import decode_pure_base64, decode_stego_after_double_star
-from .utils import clean_source_url, is_http_url, normalize_url
+from .utils import clean_source_url, encode_url, is_http_url, normalize_url
 
 __all__ = [
     "ParsedPayload", "parse_payload", "parse_json_relaxed", "classify",
@@ -30,7 +30,7 @@ __all__ = [
     "decrypt_catvod_aes_hex", "hex_to_bytes",
     "decode_stego_after_double_star", "decode_pure_base64",
     "extract_urls", "SKIP_KW", "LINE_KW",
-    "normalize_url", "is_http_url", "clean_source_url",
+    "normalize_url", "is_http_url", "clean_source_url", "encode_url",
     "KIND_SINGLE", "KIND_STORE", "KIND_URLS", "KIND_UNKNOWN",
     "FORMAT_PLAIN_JSON", "FORMAT_JSON_RELAXED", "FORMAT_IMAGE_STEGO",
     "FORMAT_AES_HEX", "FORMAT_BASE64_JSON",
