@@ -1,0 +1,2 @@
+# AES(2423) 解密依赖
+pycryptodome>=3.20

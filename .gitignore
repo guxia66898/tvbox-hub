@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时产物（由流水线生成，不入库）
+dist/
+history/
+seeds/auto.json
+seeds/promote.json
+config.json
+
+# 本地运行日志
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
