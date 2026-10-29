@@ -1,7 +1,17 @@
 # tvbox-hub · TVBox/影视仓 线路中枢
 
+[![CI](https://github.com/guxia66898/tvbox-hub/actions/workflows/hub.yml/badge.svg)](https://github.com/guxia66898/tvbox-hub/actions/workflows/hub.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue.svg)](https://www.python.org/)
+
 把散落在 TVBox/影视仓 社区的公开接口线路，做成一条**可持续运行的流水线**：
 `种子线路 + 聚合页采集 → 全生态配置解析 → L1 线路验活 → L2 站点抽样 → 排名去重 → 三个订阅产物 + 历史趋势体检面板`。
+
+> **English**: tvbox-hub is a self-hosted pipeline for TVBox / YingShiCang config sources.
+> It harvests public config URLs, parses every known config format (lenient JSON, image steganography,
+> CatVod `2423` AES, Base64), probes line and site availability, merges them into a single-warehouse
+> config with per-site `jar` allocation, and publishes three subscription artifacts plus a static
+> health dashboard. Availability checking only — no content is stored or redistributed. See [README.en.md](README.en.md).
 
 > 源起：分析桌面版《影视仓接口助手_1.0.apk》（WebView 单文件版）后，把它的核心能力
 > （内置线路 + 聚合页搜寻 + 多仓递归展开 + 测速导出）服务端化，并融合
@@ -80,7 +90,7 @@ python tests/test_discover.py      # 自动发现：四通道 / 实测拦截 / �
 ```
 
 四项均输出 `ALL PASS` 才说明环境与代码正常。跑完真实流水线后，可再执行
-`python seeds/audit.py` 对产物做体检（结构合法性 / 数据一致性 / 快照完整性）。
+`python tools/audit.py` 对产物做体检（结构合法性 / 数据一致性 / 快照完整性）。
 
 产物在 `dist/`，历史在 `history/`；面板直接用浏览器打开 `dist/index.html`。
 
@@ -167,7 +177,7 @@ payload.raw_obj     # 解析后的原始 dict
 
 ### 种子池扩充轮（2026-10-29）
 
-把 GitHub 高星配置仓库接入种子池（用 `seeds/scan_repos.py` 经 jsDelivr 文件树扫描、`seeds/verify_cands.py` 实测解析后入库 8 条：2hacc、noimank 多仓、Dong-learn9×2、hackyjso、youhunwl×2、juhe-subhub 每日自动聚合订阅），前后对比：
+把 GitHub 高星配置仓库接入种子池（用 `tools/scan_repos.py` 经 jsDelivr 文件树扫描、`tools/verify_candidates.py` 实测解析后入库 8 条：2hacc、noimank 多仓、Dong-learn9×2、hackyjso、youhunwl×2、juhe-subhub 每日自动聚合订阅），前后对比：
 
 | 指标 | 扩充前 | 扩充后 |
 |---|---|---|
@@ -229,7 +239,7 @@ python run.py --discover-max 80  # 加大候选验证量
 $env:GITHUB_TOKEN='ghp_xxx'; python run.py   # 启用 GitHub 搜索通道
 ```
 
-1. **GitHub 配置仓库**：改 `seeds/scan_repos.py` 的 REPOS 列表 → 跑扫描 → 把输出的 raw URL 加进 `seeds/verify_cands.py` 实测 → 解析通过的写进 `seeds/lines.json` 的 `base_lines`。选仓库时优先多仓（`storeHouse`/`urls`），一条多仓展开后就是几十条线；
+1. **GitHub 配置仓库**：改 `tools/scan_repos.py` 的 REPOS 列表 → 跑扫描 → 把输出的 raw URL 加进 `tools/verify_candidates.py` 实测 → 解析通过的写进 `seeds/lines.json` 的 `base_lines`。选仓库时优先多仓（`storeHouse`/`urls`），一条多仓展开后就是几十条线；
 2. **聚合的聚合**（性价比最高）：juhe-subhub 这类每日自动检测拼装的订阅（如 `https://ofind.cn/juhe-subhub/merged.json`）本身就是活水，会自己发现新线路；
 3. **多仓镜像站**：`52bsj.vip:98`、`tvbox.lltv8.top`、jihulab/gitlab 的 dcang 系列已在池内，同类镜像出现时照方抓药；
 4. **聚合页**：现 18 个存活率低（3/18，下载站多为 JS 渲染），可补充 FlowUs/Notion 分享页、Telegram 频道备份页等静态页；
