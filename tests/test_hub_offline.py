@@ -25,7 +25,8 @@ def node(url, name, kind, status, **kw):
 
 
 def main():
-    cfg = HubConfig(out_dir="dist-test", history_dir="history-test")
+    cfg = HubConfig(out_dir="dist-test", history_dir="history-test",
+                    merge_enabled=True, sources_enabled=False, jar_check_enabled=False)
     shutil.rmtree("dist-test", ignore_errors=True)
     shutil.rmtree("history-test", ignore_errors=True)
 

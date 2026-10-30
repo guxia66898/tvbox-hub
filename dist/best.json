@@ -1,0 +1,7 @@
+{
+  "_说明": "默认推荐：评分最高的单个自洽源。直接把 url 填进客户端。",
+  "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+  "name": "高天流云",
+  "sites": 298,
+  "why": "自洽单仓：settings 与 jar 由同一作者维护，站点与 jar 严格配套，不依赖客户端的 per-site jar 支持"
+}

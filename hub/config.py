@@ -45,6 +45,11 @@ class HubConfig:
     # 导出层：GitHub 直链镜像改写（国内电视台/盒子直连 raw.githubusercontent 不通）
     mirror_enabled: bool = True
     mirror_prefixes: list | None = None
+    # 单源直出（推荐）：验证自洽单仓并单独发布，不做大合并
+    sources_enabled: bool = True
+    sources_limit: int = 60
+    # 大合并配置（默认关闭）：能导入但实测能播放的很少，保留仅供兼容
+    merge_enabled: bool = False
 
     @classmethod
     def from_file(cls, path: str | None, overrides: dict | None = None) -> "HubConfig":

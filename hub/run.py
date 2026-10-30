@@ -49,6 +49,10 @@ def _parse_args(argv=None):
                    help="跳过 jar 可达性检查（省 30~60 秒）")
     p.add_argument("--no-mirror", dest="mirror_enabled", action="store_false", default=None,
                    help="导出时不对 GitHub 直链套加速镜像（国内设备可能拉不到）")
+    p.add_argument("--merge", dest="merge_enabled", action="store_true", default=None,
+                   help="额外输出大合并单仓配置（实测能播放的很少，建议用 sources.json）")
+    p.add_argument("--sources-limit", dest="sources_limit", type=int,
+                   help="单源直出最多验证多少个（默认 60）")
     return p.parse_args(argv)
 
 
@@ -101,6 +105,8 @@ def main(argv=None) -> int:
         "promote_enabled": args.promote_enabled, "promote_after": args.promote_after,
         "jar_check_enabled": args.jar_check_enabled,
         "mirror_enabled": args.mirror_enabled,
+        "merge_enabled": args.merge_enabled,
+        "sources_limit": args.sources_limit,
     }
     cfg = HubConfig.from_file(args.config, overrides)
     started_at = datetime.now(timezone.utc)

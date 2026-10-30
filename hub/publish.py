@@ -243,7 +243,24 @@ def write_artifacts(nodes: list[dict], cfg, started_at: datetime, harvest_stats:
     p_curated = os.path.join(out_dir, "curated.json")
     _write_json(p_curated, build_curated(nodes, cfg))
     p_tvbox = os.path.join(out_dir, "tvbox.json")
-    merged_cfg = build_tvbox_config(nodes)
+
+    # 单源直出：发布若干个通过验证的「自洽单仓」（一个配置 + 一个 jar）。
+    # 实测证明大合并配置能导入但能播放的很少——per-site jar 字段不是所有客户端都支持。
+    p_sources = p_best = ""
+    try:
+        from .singlesource import build_sources, write_sources
+        sources = build_sources(nodes, cfg, limit=getattr(cfg, "sources_limit", 60))
+        paths = write_sources(out_dir, sources)
+        p_sources, p_best = paths["sources"], paths["best"]
+        print(f"[single] 自洽单仓验证通过 {len(sources)} 个 → sources.json / best.json",
+              flush=True)
+    except Exception as e:  # noqa: BLE001
+        print(f"[single] 单源产物跳过（{type(e).__name__}: {e}）", flush=True)
+
+    # 大合并配置：保留但默认关闭（历史产物，兼容旧订阅地址）
+    merged_cfg = None
+    if getattr(cfg, "merge_enabled", False):
+        merged_cfg = build_tvbox_config(nodes)
     if merged_cfg:
         _localize_urls(merged_cfg, cfg)
     # jar 可达性检查：给指向失效 jar 的站点打标记（type:3 站点的硬依赖）
@@ -284,5 +301,6 @@ def write_artifacts(nodes: list[dict], cfg, started_at: datetime, harvest_stats:
         p_panel = ""
 
     return {"merged": p_merged, "curated": p_curated, "tvbox": p_tvbox,
+            "sources": p_sources, "best": p_best,
             "report": p_report, "panel": p_panel,
             "snapshot": os.path.join(history_dir, snap_file)}

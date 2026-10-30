@@ -1,0 +1,464 @@
+{
+  "ts": "2026-10-28T22:58:48.644755+00:00",
+  "lines": [
+    {
+      "url": "https://www.yingm.cc/dm/dm.json",
+      "name": "动漫城",
+      "kind": "single",
+      "available": true,
+      "total_ms": 305.8,
+      "site_count": 27,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://home.jundie.top:81/top98.json",
+      "name": "俊佬",
+      "kind": "single",
+      "available": true,
+      "total_ms": 256.9,
+      "site_count": 24,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://play.iptv365.org/欧歌/api.json",
+      "name": "欧歌",
+      "kind": "single",
+      "available": true,
+      "total_ms": 1231.6,
+      "site_count": 106,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "url": "https://play.iptv365.org/小米/api.json",
+      "name": "小米",
+      "kind": "single",
+      "available": true,
+      "total_ms": 1231.6,
+      "site_count": 36,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://宝盒接口.top",
+      "name": "宝盒接口",
+      "kind": "single",
+      "available": true,
+      "total_ms": 2100.7,
+      "site_count": 49,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "name": "高天流云",
+      "kind": "single",
+      "available": true,
+      "total_ms": 860.7,
+      "site_count": 298,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json",
+      "name": "影视仓聚合",
+      "kind": "multi_storehouse",
+      "available": true,
+      "total_ms": 890.8,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://fty.888484.xyz/tv",
+      "name": "🚀无邪┃饭太硬备用",
+      "kind": "single",
+      "available": true,
+      "total_ms": 667.0,
+      "site_count": 49,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://fish.y456y.com",
+      "name": "🚀无邪┃摸鱼备用",
+      "kind": "single",
+      "available": true,
+      "total_ms": 589.8,
+      "site_count": 104,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://我不是.摸鱼儿.cc",
+      "name": "💎无邪┃摸鱼线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 697.9,
+      "site_count": 104,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://tvbox.王二小放牛娃.top",
+      "name": "💎无邪┃王二小线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 1065.4,
+      "site_count": 63,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://box.ufuzi.com/tv/qq/短剧频道/api.json",
+      "name": "💎无邪┃短剧专线",
+      "kind": "single",
+      "available": true,
+      "total_ms": 159.7,
+      "site_count": 35,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
+      "name": "💎无邪┃老刘备线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 1388.2,
+      "site_count": 234,
+      "l2_pass_rate": 0.375
+    },
+    {
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/maoystv/6/main/001.json",
+      "name": "💎无邪┃分享者线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 1621.0,
+      "site_count": 168,
+      "l2_pass_rate": 0.5
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "name": "💎无邪┃香雅晴线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 685.2,
+      "site_count": 48,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "url": "https://raw.liucn.cc/box/dm.txt",
+      "name": "多多聚合",
+      "kind": "multi_storehouse",
+      "available": true,
+      "total_ms": 665.9,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://tv.999888987.xyz",
+      "name": "放牛娃💜线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 875.2,
+      "site_count": 63,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://tv.xn--yhqu5zs87a.top",
+      "name": "菜妮丝💜线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 959.1,
+      "site_count": 37,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "url": "http://liucn.cc/box/dc/lns/lns.json",
+      "name": "菜妮💜线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 561.4,
+      "site_count": 55,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "url": "https://d.kstore.dev/download/6492/xnf/xnf.json",
+      "name": "小脑斧💜线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 905.0,
+      "site_count": 51,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "name": "心魔💜线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 1308.3,
+      "site_count": 151,
+      "l2_pass_rate": 0.75
+    },
+    {
+      "url": "http://szyyds.cn/tv/x.json",
+      "name": "小马💜线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 136.2,
+      "site_count": 62,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "url": "https://raw.liucn.cc/box/m.json",
+      "name": "liucn-m",
+      "kind": "single",
+      "available": true,
+      "total_ms": 642.4,
+      "site_count": 234,
+      "l2_pass_rate": 0.375
+    },
+    {
+      "url": "https://dxawi.github.io/0/0.json",
+      "name": "dxawi",
+      "kind": "single",
+      "available": true,
+      "total_ms": 586.1,
+      "site_count": 48,
+      "l2_pass_rate": 0.667
+    },
+    {
+      "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc.json",
+      "name": "月光宝盒多仓",
+      "kind": "multi_urls",
+      "available": true,
+      "total_ms": 284.2,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/ygbh.json",
+      "name": "月光影视仓",
+      "kind": "multi_storehouse",
+      "available": true,
+      "total_ms": 255.5,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc2.json",
+      "name": "宝盒多仓2",
+      "kind": "multi_urls",
+      "available": true,
+      "total_ms": 118.5,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://jihulab.com/duomv/apps/-/raw/main/fast.json",
+      "name": "多多接口多仓",
+      "kind": "multi_storehouse",
+      "available": true,
+      "total_ms": 242.7,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
+      "name": "💎一木线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 548.2,
+      "site_count": 69,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/yydfjk.json",
+      "name": "🏄️业余线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 566.1,
+      "site_count": 193,
+      "l2_pass_rate": 0.375
+    },
+    {
+      "url": "https://jihulab.com/duomv/apps/-/raw/main/duo.json",
+      "name": "多多多仓",
+      "kind": "multi_urls",
+      "available": true,
+      "total_ms": 278.4,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+      "name": "🚀蜂蜜线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 492.9,
+      "site_count": 3,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+      "name": "🚀香雅情线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 638.6,
+      "site_count": 49,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "name": "🐹高天流云",
+      "kind": "single",
+      "available": true,
+      "total_ms": 647.1,
+      "site_count": 298,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://z.qiqiv.cn/123",
+      "name": "奇奇",
+      "kind": "multi_urls",
+      "available": true,
+      "total_ms": 837.3,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://www.饭太硬.net/tv",
+      "name": "饭太硬",
+      "kind": "single",
+      "available": true,
+      "total_ms": 669.8,
+      "site_count": 49,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json",
+      "name": "小米",
+      "kind": "single",
+      "available": true,
+      "total_ms": 682.8,
+      "site_count": 36,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://肥猫.net/tv",
+      "name": "肥猫",
+      "kind": "single",
+      "available": true,
+      "total_ms": 1647.2,
+      "site_count": 39,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://9280.kstore.vip/newwex.json",
+      "name": "王二小",
+      "kind": "single",
+      "available": true,
+      "total_ms": 362.4,
+      "site_count": 99,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://9763.kstore.vip/aowu.json",
+      "name": "嗷呜",
+      "kind": "single",
+      "available": true,
+      "total_ms": 143.6,
+      "site_count": 78,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://我不是.摸鱼儿.top",
+      "name": "摸鱼儿",
+      "kind": "single",
+      "available": true,
+      "total_ms": 628.4,
+      "site_count": 104,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://hb.小虎斑.site:25252/仅供测试",
+      "name": "小虎斑",
+      "kind": "single",
+      "available": true,
+      "total_ms": 1603.2,
+      "site_count": 77,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json",
+      "name": "南风",
+      "kind": "single",
+      "available": true,
+      "total_ms": 495.0,
+      "site_count": 91,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/lubin776/0/refs/heads/main/tvbox/b2.json",
+      "name": "少儿频道",
+      "kind": "single",
+      "available": true,
+      "total_ms": 453.2,
+      "site_count": 25,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "http://z.qiqiv.cn/666",
+      "name": "戏曲音乐",
+      "kind": "single",
+      "available": true,
+      "total_ms": 459.5,
+      "site_count": 9,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://9280.kstore.space/wex.json",
+      "name": "kstore-wex",
+      "kind": "single",
+      "available": true,
+      "total_ms": 167.4,
+      "site_count": 63,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/a.json",
+      "name": "",
+      "kind": "multi_urls",
+      "available": true,
+      "total_ms": 286.5,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/b.json",
+      "name": "",
+      "kind": "multi_urls",
+      "available": true,
+      "total_ms": 298.3,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/c.json",
+      "name": "",
+      "kind": "multi_urls",
+      "available": true,
+      "total_ms": 279.7,
+      "site_count": 0,
+      "l2_pass_rate": null
+    },
+    {
+      "url": "https://szyyds.cn/tv/x.json",
+      "name": "💎小马线路",
+      "kind": "single",
+      "available": true,
+      "total_ms": 85.0,
+      "site_count": 62,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/d.json",
+      "name": "",
+      "kind": "multi_urls",
+      "available": true,
+      "total_ms": 261.6,
+      "site_count": 0,
+      "l2_pass_rate": null
+    }
+  ]
+}

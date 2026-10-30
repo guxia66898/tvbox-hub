@@ -18,9 +18,16 @@
     "avg_total_ms": 1949.3
   },
   {
+<<<<<<< HEAD
     "date": "10-29 22:17",
     "available": 208,
     "lines_total": 243,
     "avg_total_ms": 499.6
+=======
+    "date": "10-30 10:09",
+    "available": 195,
+    "lines_total": 243,
+    "avg_total_ms": 1331.5
+>>>>>>> 19bd724 (refactor!: 改为单源直出，放弃大合并（修复能导入但放不出来）)
   }
 ]
