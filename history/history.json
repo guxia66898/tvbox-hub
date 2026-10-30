@@ -1,33 +1,8 @@
 [
   {
-    "date": "10-29 04:24",
-    "available": 211,
-    "lines_total": 243,
-    "avg_total_ms": 523.3
-  },
-  {
-    "date": "10-29 12:48",
-    "available": 84,
-    "lines_total": 243,
-    "avg_total_ms": 734.2
-  },
-  {
-    "date": "10-29 13:14",
-    "available": 197,
-    "lines_total": 243,
-    "avg_total_ms": 1949.3
-  },
-  {
-<<<<<<< HEAD
-    "date": "10-29 22:17",
-    "available": 208,
-    "lines_total": 243,
-    "avg_total_ms": 499.6
-=======
-    "date": "10-30 10:09",
-    "available": 195,
-    "lines_total": 243,
-    "avg_total_ms": 1331.5
->>>>>>> 19bd724 (refactor!: 改为单源直出，放弃大合并（修复能导入但放不出来）)
+    "date": "10-30 10:30",
+    "available": 221,
+    "lines_total": 245,
+    "avg_total_ms": 1419.2
   }
 ]
