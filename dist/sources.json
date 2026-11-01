@@ -35,6 +35,14 @@
       "l2_pass_rate": null
     },
     {
+      "name": "🌟道长",
+      "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/XYQTVBox/drpy_js/drjs_config.json",
+      "sites": 230,
+      "type3": 230,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
       "name": "🚀游魂┃哈基米线路",
       "url": "https://www.iyouhun.com/tv/hjm",
       "sites": 168,
@@ -61,8 +69,8 @@
     {
       "name": "qist-电视聚合",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json",
-      "sites": 156,
-      "type3": 140,
+      "sites": 157,
+      "type3": 141,
       "jar_kb": 64.0,
       "l2_pass_rate": 0.75
     },
@@ -83,7 +91,7 @@
       "l2_pass_rate": 0.65
     },
     {
-      "name": "EasyTV主力",
+      "name": "📺EasyTV ┃ 熵侦精选 [386ms]",
       "url": "https://raw.githubusercontent.com/EasyXC/EasyTVbox/main/easytv.jpg",
       "sites": 135,
       "type3": 135,
@@ -107,6 +115,22 @@
       "l2_pass_rate": 0.75
     },
     {
+      "name": "❤️天天开心",
+      "url": "https://play.iptv365.org/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api.json",
+      "sites": 126,
+      "type3": 124,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 0.5
+    },
+    {
+      "name": "🌟潇洒单仓pro",
+      "url": "https://github.com/niuber/niuber/raw/refs/heads/main/tvbox/TVBoxOSC/tvbox/api.json",
+      "sites": 125,
+      "type3": 125,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
       "name": "XYQ 接口【apkck.top】",
       "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/debaters6/XYQ/master/0821.json",
       "sites": 124,
@@ -117,16 +141,16 @@
     {
       "name": "🚀游魂┃潇洒线路",
       "url": "https://www.iyouhun.com/tv/xs",
-      "sites": 109,
-      "type3": 108,
+      "sites": 110,
+      "type3": 109,
       "jar_kb": 64.0,
       "l2_pass_rate": 1.0
     },
     {
-      "name": "🌟潇洒线路 ┃ 优质备用 [在线]",
+      "name": "🌟潇洒线路 ┃ 优质备用 [85ms]",
       "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
-      "sites": 109,
-      "type3": 108,
+      "sites": 110,
+      "type3": 109,
       "jar_kb": 64.0,
       "l2_pass_rate": 1.0
     },
@@ -141,48 +165,48 @@
     {
       "name": "🚀无邪┃摸鱼线路",
       "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.cc",
-      "sites": 102,
-      "type3": 102,
+      "sites": 103,
+      "type3": 103,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "🚀无邪┃摸鱼备用",
       "url": "http://fish.y456y.com",
-      "sites": 102,
-      "type3": 102,
+      "sites": 103,
+      "type3": 103,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "y456y摸鱼镜像",
       "url": "http://www.y456y.com",
-      "sites": 102,
-      "type3": 102,
+      "sites": 103,
+      "type3": 103,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "摸鱼儿top镜像",
       "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top",
-      "sites": 102,
-      "type3": 102,
+      "sites": 103,
+      "type3": 103,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
-      "name": "🐟摸鱼接口 ┃ 4K极速 [在线]",
+      "name": "🐟摸鱼接口 ┃ 4K极速 [1961ms]",
       "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top",
-      "sites": 102,
-      "type3": 102,
+      "sites": 103,
+      "type3": 103,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "摸鱼接口【apkck.top】",
       "url": "https://6800.kstore.vip/fish.json",
-      "sites": 102,
-      "type3": 102,
+      "sites": 103,
+      "type3": 103,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -219,7 +243,7 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🚀王二小线 ┃ 综合推荐 [在线]",
+      "name": "🚀王二小线 ┃ 综合推荐 [375ms]",
       "url": "http://new.xn--4kq62z5rby2qupq9ub.top/",
       "sites": 99,
       "type3": 99,
@@ -267,6 +291,14 @@
       "l2_pass_rate": null
     },
     {
+      "name": "kstore8815-wmz接口",
+      "url": "https://8815.kstore.vip/tvbox/wmz",
+      "sites": 95,
+      "type3": 95,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
       "name": "chitue-dongli聚合",
       "url": "https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
       "sites": 93,
@@ -307,48 +339,16 @@
       "l2_pass_rate": 1.0
     },
     {
-      "name": "🚀游魂┃驸马线路",
-      "url": "https://www.iyouhun.com/tv/fuma",
-      "sites": 82,
-      "type3": 81,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "🐯小虎斑线路",
-      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
-      "sites": 79,
-      "type3": 77,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "kstore9763-aowu",
-      "url": "https://9763.kstore.vip/aowu.json",
-      "sites": 78,
-      "type3": 78,
-      "jar_kb": 22.1,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "英格里希嗷呜TV",
-      "url": "http://www.xn--nsr30bl8nb2kyt7a8vs.top/tv",
-      "sites": 78,
-      "type3": 78,
-      "jar_kb": 22.1,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "嗷呜",
-      "url": "https://9763.kstore.space/aowu.json",
-      "sites": 78,
-      "type3": 78,
-      "jar_kb": 22.1,
-      "l2_pass_rate": null
-    },
-    {
       "name": "kimwang1978-OK单仓",
       "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/OK/api.json",
+      "sites": 76,
+      "type3": 75,
+      "jar_kb": 25.3,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "name": "❤️OK",
+      "url": "https://play.iptv365.org/OK/api.json",
       "sites": 76,
       "type3": 75,
       "jar_kb": 25.3,
@@ -451,14 +451,6 @@
       "l2_pass_rate": 1.0
     },
     {
-      "name": "🚀™菜妮丝源 [在线]",
-      "url": "https://tv.xn--yhqu5zs87a.top/",
-      "sites": 37,
-      "type3": 36,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 1.0
-    },
-    {
       "name": "骚零接口【apkck.top】",
       "url": "https://play.iptv365.org/%E9%AA%9A%E9%9B%B6/api.json",
       "sites": 37,
@@ -481,6 +473,14 @@
       "type3": 27,
       "jar_kb": 64.0,
       "l2_pass_rate": 0.667
+    },
+    {
+      "name": "茄子接口【apkck.top】",
+      "url": "https://700sjro44343.vicp.fun/eggp/qzku/tv.json",
+      "sites": 28,
+      "type3": 27,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 1.0
     }
   ]
 }
