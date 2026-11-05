@@ -93,26 +93,18 @@
     {
       "name": "📺EasyTV ┃ 熵侦精选 [在线]",
       "url": "https://raw.githubusercontent.com/EasyXC/EasyTVbox/main/easytv.jpg",
-      "sites": 140,
-      "type3": 140,
+      "sites": 139,
+      "type3": 139,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "EasyTV凯速",
       "url": "https://15318.kstore.space/easytv.jpg",
-      "sites": 140,
-      "type3": 140,
+      "sites": 139,
+      "type3": 139,
       "jar_kb": 64.0,
       "l2_pass_rate": null
-    },
-    {
-      "name": "jihulab-xzvip仓库",
-      "url": "https://jihulab.com/xuanzhuapp/xzys/-/raw/main/xzvip.json",
-      "sites": 126,
-      "type3": 118,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 0.75
     },
     {
       "name": "❤️天天开心",
@@ -335,6 +327,14 @@
       "url": "https://play.iptv365.org/%E5%B0%8F%E8%99%8E%E6%96%91/api.json",
       "sites": 88,
       "type3": 83,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "🐯小虎斑线路",
+      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
+      "sites": 84,
+      "type3": 82,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
