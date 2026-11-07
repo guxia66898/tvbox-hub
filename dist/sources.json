@@ -31,7 +31,7 @@
       "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
       "sites": 298,
       "type3": 298,
-      "jar_kb": 64.0,
+      "jar_kb": 63.1,
       "l2_pass_rate": null
     },
     {
@@ -41,22 +41,6 @@
       "type3": 230,
       "jar_kb": 64.0,
       "l2_pass_rate": null
-    },
-    {
-      "name": "🚀游魂┃哈基米线路",
-      "url": "https://www.iyouhun.com/tv/hjm",
-      "sites": 169,
-      "type3": 133,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 0.85
-    },
-    {
-      "name": "哈基米",
-      "url": "https://17264.kstore.space/%E5%93%88%E5%9F%BA%E7%B1%B3.png",
-      "sites": 169,
-      "type3": 133,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 0.85
     },
     {
       "name": "youhunwl-潇洒",
@@ -216,7 +200,7 @@
       "sites": 101,
       "type3": 73,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.75
+      "l2_pass_rate": 0.7
     },
     {
       "name": "🚀5-Clun在线",
@@ -224,7 +208,7 @@
       "sites": 101,
       "type3": 73,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.75
+      "l2_pass_rate": 0.7
     },
     {
       "name": "🚀无邪┃王二小备用",
@@ -481,6 +465,22 @@
       "type3": 27,
       "jar_kb": 64.0,
       "l2_pass_rate": 0.667
+    },
+    {
+      "name": "二月红",
+      "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
+      "sites": 28,
+      "type3": 27,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "name": "茄子接口【apkck.top】",
+      "url": "https://700sjro44343.vicp.fun/eggp/qzku/tv.json",
+      "sites": 28,
+      "type3": 27,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 1.0
     }
   ]
 }
