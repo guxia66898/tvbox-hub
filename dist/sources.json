@@ -323,6 +323,14 @@
       "l2_pass_rate": 1.0
     },
     {
+      "name": "🐯小虎斑线路",
+      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
+      "sites": 88,
+      "type3": 86,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
       "name": "kimwang1978-OK单仓",
       "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/OK/api.json",
       "sites": 76,
@@ -465,14 +473,6 @@
       "type3": 27,
       "jar_kb": 64.0,
       "l2_pass_rate": 0.667
-    },
-    {
-      "name": "二月红",
-      "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
-      "sites": 28,
-      "type3": 27,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 1.0
     },
     {
       "name": "茄子接口【apkck.top】",
