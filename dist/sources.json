@@ -43,20 +43,20 @@
       "l2_pass_rate": null
     },
     {
+      "name": "qist-电视聚合",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json",
+      "sites": 162,
+      "type3": 147,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 0.733
+    },
+    {
       "name": "youhunwl-潇洒",
       "url": "https://raw.githubusercontent.com/youhunwl/TVBox/master/%E6%BD%87%E6%B4%92.txt",
       "sites": 161,
       "type3": 155,
       "jar_kb": 64.0,
       "l2_pass_rate": 1.0
-    },
-    {
-      "name": "qist-电视聚合",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json",
-      "sites": 159,
-      "type3": 144,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 0.733
     },
     {
       "name": "🚀1-心魔在线",
@@ -77,8 +77,8 @@
     {
       "name": "EasyTV凯速",
       "url": "https://15318.kstore.space/easytv.jpg",
-      "sites": 142,
-      "type3": 142,
+      "sites": 146,
+      "type3": 146,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -109,24 +109,32 @@
     {
       "name": "潇洒",
       "url": "https://9877.kstore.space/sun.json",
-      "sites": 115,
-      "type3": 115,
+      "sites": 116,
+      "type3": 116,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "🚀游魂┃潇洒线路",
       "url": "https://www.iyouhun.com/tv/xs",
-      "sites": 112,
-      "type3": 112,
+      "sites": 115,
+      "type3": 115,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "🌟潇洒线路 ┃ 优质备用 [在线]",
       "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
-      "sites": 112,
-      "type3": 112,
+      "sites": 115,
+      "type3": 115,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "🐯小虎斑线路",
+      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
+      "sites": 113,
+      "type3": 111,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -175,14 +183,6 @@
       "url": "https://6800.kstore.vip/fish.json",
       "sites": 108,
       "type3": 108,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "🐯小虎斑线路",
-      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
-      "sites": 107,
-      "type3": 105,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
