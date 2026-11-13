@@ -35,18 +35,18 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🌟道长",
-      "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/XYQTVBox/drpy_js/drjs_config.json",
-      "sites": 230,
-      "type3": 230,
+      "name": "niubihu1-1号单仓",
+      "url": "https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json",
+      "sites": 172,
+      "type3": 150,
       "jar_kb": 64.0,
-      "l2_pass_rate": null
+      "l2_pass_rate": 1.0
     },
     {
       "name": "qist-电视聚合",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json",
-      "sites": 163,
-      "type3": 148,
+      "sites": 162,
+      "type3": 147,
       "jar_kb": 64.0,
       "l2_pass_rate": 0.733
     },
@@ -75,26 +75,10 @@
       "l2_pass_rate": 0.65
     },
     {
-      "name": "EasyTV凯速",
+      "name": "📺EasyTV ┃ 熵侦精选 [208ms]",
       "url": "https://15318.kstore.space/easytv.jpg",
-      "sites": 146,
-      "type3": 146,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "❤️天天开心",
-      "url": "https://play.iptv365.org/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api.json",
-      "sites": 126,
-      "type3": 124,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 0.5
-    },
-    {
-      "name": "🌟潇洒单仓pro",
-      "url": "https://github.com/niuber/niuber/raw/refs/heads/main/tvbox/TVBoxOSC/tvbox/api.json",
-      "sites": 125,
-      "type3": 125,
+      "sites": 145,
+      "type3": 145,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -115,26 +99,26 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🚀游魂┃潇洒线路",
-      "url": "https://www.iyouhun.com/tv/xs",
-      "sites": 116,
-      "type3": 116,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "🌟潇洒线路 ┃ 优质备用 [在线]",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
-      "sites": 116,
-      "type3": 116,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
       "name": "🐯小虎斑线路",
       "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
-      "sites": 113,
-      "type3": 111,
+      "sites": 116,
+      "type3": 114,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "🚀游魂┃潇洒线路",
+      "url": "https://www.iyouhun.com/tv/xs",
+      "sites": 115,
+      "type3": 115,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "🌟潇洒线路 ┃ 优质备用 [376ms]",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
+      "sites": 115,
+      "type3": 115,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -171,7 +155,7 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🐟摸鱼接口 ┃ 4K极速 [在线]",
+      "name": "🐟摸鱼接口 ┃ 4K极速 [975ms]",
       "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top",
       "sites": 111,
       "type3": 111,
@@ -221,6 +205,22 @@
     {
       "name": "🚀无邪┃王二小备用",
       "url": "https://9280.kstore.vip/newwex.json",
+      "sites": 100,
+      "type3": 100,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "王二小放牛娃new镜像",
+      "url": "http://new.xn--4kq62z5rby2qupq9ub.top",
+      "sites": 100,
+      "type3": 100,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "🚀王二小线 ┃ 综合推荐 [687ms]",
+      "url": "http://new.xn--4kq62z5rby2qupq9ub.top/",
       "sites": 100,
       "type3": 100,
       "jar_kb": 64.0,
@@ -283,14 +283,6 @@
       "l2_pass_rate": 1.0
     },
     {
-      "name": "🚀东篱线路 [在线]",
-      "url": "https://chigua.eu.org",
-      "sites": 93,
-      "type3": 89,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 1.0
-    },
-    {
       "name": "东篱接口【apkck.top】",
       "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
       "sites": 93,
@@ -307,11 +299,27 @@
       "l2_pass_rate": 1.0
     },
     {
-      "name": "🌟小虎斑",
-      "url": "https://play.iptv365.org/%E5%B0%8F%E8%99%8E%E6%96%91/api.json",
-      "sites": 88,
-      "type3": 83,
+      "name": "🚀东篱线路 [在线]",
+      "url": "https://chigua.eu.org",
+      "sites": 93,
+      "type3": 89,
       "jar_kb": 64.0,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "name": "kstore9763-aowu",
+      "url": "https://9763.kstore.vip/aowu.json",
+      "sites": 82,
+      "type3": 82,
+      "jar_kb": 22.2,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "英格里希嗷呜TV",
+      "url": "http://www.xn--nsr30bl8nb2kyt7a8vs.top/tv",
+      "sites": 82,
+      "type3": 82,
+      "jar_kb": 22.2,
       "l2_pass_rate": null
     },
     {
@@ -323,24 +331,16 @@
       "l2_pass_rate": null
     },
     {
-      "name": "kstore9763-aowu",
-      "url": "https://9763.kstore.vip/aowu.json",
-      "sites": 80,
-      "type3": 80,
+      "name": "嗷呜",
+      "url": "https://9763.kstore.space/aowu.json",
+      "sites": 82,
+      "type3": 82,
       "jar_kb": 22.2,
       "l2_pass_rate": null
     },
     {
       "name": "kimwang1978-OK单仓",
       "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/OK/api.json",
-      "sites": 76,
-      "type3": 75,
-      "jar_kb": 25.3,
-      "l2_pass_rate": 1.0
-    },
-    {
-      "name": "❤️OK",
-      "url": "https://play.iptv365.org/OK/api.json",
       "sites": 76,
       "type3": 75,
       "jar_kb": 25.3,
@@ -443,6 +443,14 @@
       "l2_pass_rate": 1.0
     },
     {
+      "name": "🚀™菜妮丝源 [301ms]",
+      "url": "https://tv.xn--yhqu5zs87a.top/",
+      "sites": 37,
+      "type3": 36,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 1.0
+    },
+    {
       "name": "骚零接口【apkck.top】",
       "url": "https://play.iptv365.org/%E9%AA%9A%E9%9B%B6/api.json",
       "sites": 37,
@@ -469,14 +477,6 @@
     {
       "name": "二月红",
       "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
-      "sites": 31,
-      "type3": 30,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 1.0
-    },
-    {
-      "name": "茄子接口【apkck.top】",
-      "url": "https://700sjro44343.vicp.fun/eggp/qzku/tv.json",
       "sites": 31,
       "type3": 30,
       "jar_kb": 64.0,
