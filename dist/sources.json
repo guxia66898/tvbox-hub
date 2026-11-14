@@ -31,22 +31,14 @@
       "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
       "sites": 298,
       "type3": 298,
-      "jar_kb": 63.1,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "niubihu1-1号单仓",
-      "url": "https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json",
-      "sites": 172,
-      "type3": 150,
       "jar_kb": 64.0,
-      "l2_pass_rate": 1.0
+      "l2_pass_rate": null
     },
     {
       "name": "qist-电视聚合",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json",
-      "sites": 162,
-      "type3": 147,
+      "sites": 163,
+      "type3": 148,
       "jar_kb": 64.0,
       "l2_pass_rate": 0.733
     },
@@ -75,10 +67,10 @@
       "l2_pass_rate": 0.65
     },
     {
-      "name": "📺EasyTV ┃ 熵侦精选 [208ms]",
+      "name": "📺EasyTV ┃ 熵侦精选 [在线]",
       "url": "https://15318.kstore.space/easytv.jpg",
-      "sites": 145,
-      "type3": 145,
+      "sites": 135,
+      "type3": 135,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -91,6 +83,14 @@
       "l2_pass_rate": 0.625
     },
     {
+      "name": "🐯小虎斑线路",
+      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
+      "sites": 117,
+      "type3": 115,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
       "name": "潇洒",
       "url": "https://9877.kstore.space/sun.json",
       "sites": 116,
@@ -99,26 +99,18 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🐯小虎斑线路",
-      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
-      "sites": 116,
-      "type3": 114,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
       "name": "🚀游魂┃潇洒线路",
       "url": "https://www.iyouhun.com/tv/xs",
-      "sites": 115,
-      "type3": 115,
+      "sites": 116,
+      "type3": 116,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
-      "name": "🌟潇洒线路 ┃ 优质备用 [376ms]",
+      "name": "🌟潇洒线路 ┃ 优质备用 [在线]",
       "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
-      "sites": 115,
-      "type3": 115,
+      "sites": 116,
+      "type3": 116,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -155,7 +147,7 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🐟摸鱼接口 ┃ 4K极速 [975ms]",
+      "name": "🐟摸鱼接口 ┃ 4K极速 [在线]",
       "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top",
       "sites": 111,
       "type3": 111,
@@ -219,7 +211,7 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🚀王二小线 ┃ 综合推荐 [687ms]",
+      "name": "🚀王二小线 ┃ 综合推荐 [在线]",
       "url": "http://new.xn--4kq62z5rby2qupq9ub.top/",
       "sites": 100,
       "type3": 100,
@@ -255,14 +247,6 @@
       "url": "https://raw.githubusercontent.com/youhunwl/TVBox/master/%E7%8E%8B%E4%BA%8C%E5%B0%8F.txt",
       "sites": 96,
       "type3": 96,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "kstore8815-wmz接口",
-      "url": "https://8815.kstore.vip/tvbox/wmz",
-      "sites": 95,
-      "type3": 95,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -333,6 +317,14 @@
     {
       "name": "嗷呜",
       "url": "https://9763.kstore.space/aowu.json",
+      "sites": 82,
+      "type3": 82,
+      "jar_kb": 22.2,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "🚀游魂┃嗷呜",
+      "url": "https://www.iyouhun.com/tv/aowu",
       "sites": 82,
       "type3": 82,
       "jar_kb": 22.2,
@@ -443,7 +435,7 @@
       "l2_pass_rate": 1.0
     },
     {
-      "name": "🚀™菜妮丝源 [301ms]",
+      "name": "🚀™菜妮丝源 [在线]",
       "url": "https://tv.xn--yhqu5zs87a.top/",
       "sites": 37,
       "type3": 36,
@@ -477,6 +469,14 @@
     {
       "name": "二月红",
       "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
+      "sites": 31,
+      "type3": 30,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 1.0
+    },
+    {
+      "name": "茄子接口【apkck.top】",
+      "url": "https://700sjro44343.vicp.fun/eggp/qzku/tv.json",
       "sites": 31,
       "type3": 30,
       "jar_kb": 64.0,
