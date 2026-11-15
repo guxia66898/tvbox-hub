@@ -31,14 +31,30 @@
       "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
       "sites": 298,
       "type3": 298,
-      "jar_kb": 64.0,
+      "jar_kb": 63.1,
       "l2_pass_rate": null
+    },
+    {
+      "name": "niubihu1-1号单仓",
+      "url": "https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json",
+      "sites": 172,
+      "type3": 150,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 1.0
     },
     {
       "name": "qist-电视聚合",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json",
       "sites": 163,
       "type3": 148,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 0.733
+    },
+    {
+      "name": "🌱道长线路 ┃ DRPY旗舰 [226ms]",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+      "sites": 162,
+      "type3": 147,
       "jar_kb": 64.0,
       "l2_pass_rate": 0.733
     },
@@ -67,7 +83,7 @@
       "l2_pass_rate": 0.65
     },
     {
-      "name": "📺EasyTV ┃ 熵侦精选 [在线]",
+      "name": "📺EasyTV ┃ 熵侦精选 [291ms]",
       "url": "https://15318.kstore.space/easytv.jpg",
       "sites": 135,
       "type3": 135,
@@ -85,16 +101,8 @@
     {
       "name": "🐯小虎斑线路",
       "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
-      "sites": 117,
-      "type3": 115,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "潇洒",
-      "url": "https://9877.kstore.space/sun.json",
-      "sites": 116,
-      "type3": 116,
+      "sites": 119,
+      "type3": 117,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -107,7 +115,7 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🌟潇洒线路 ┃ 优质备用 [在线]",
+      "name": "🌟潇洒线路 ┃ 优质备用 [564ms]",
       "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
       "sites": 116,
       "type3": 116,
@@ -147,7 +155,7 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🐟摸鱼接口 ┃ 4K极速 [在线]",
+      "name": "🐟摸鱼接口 ┃ 4K极速 [1596ms]",
       "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top",
       "sites": 111,
       "type3": 111,
@@ -179,20 +187,20 @@
       "l2_pass_rate": 0.091
     },
     {
-      "name": "cluntop-box聚合",
-      "url": "https://raw.githubusercontent.com/cluntop/tvbox/main/box.json",
-      "sites": 101,
-      "type3": 73,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 0.7
-    },
-    {
       "name": "🚀5-Clun在线",
       "url": "https://clun.top/box.json",
       "sites": 101,
       "type3": 73,
       "jar_kb": 64.0,
       "l2_pass_rate": 0.7
+    },
+    {
+      "name": "cluntop-box聚合",
+      "url": "https://raw.githubusercontent.com/cluntop/tvbox/main/box.json",
+      "sites": 101,
+      "type3": 73,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 0.65
     },
     {
       "name": "🚀无邪┃王二小备用",
@@ -211,7 +219,7 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🚀王二小线 ┃ 综合推荐 [在线]",
+      "name": "🚀王二小线 ┃ 综合推荐 [939ms]",
       "url": "http://new.xn--4kq62z5rby2qupq9ub.top/",
       "sites": 100,
       "type3": 100,
@@ -371,7 +379,7 @@
       "l2_pass_rate": 1.0
     },
     {
-      "name": "💎无邪┃香雅晴线路",
+      "name": "🚀7-香雅情",
       "url": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
       "sites": 48,
       "type3": 47,
@@ -429,14 +437,6 @@
     {
       "name": "菜妮丝TV",
       "url": "https://tv.xn--yhqu5zs87a.top",
-      "sites": 37,
-      "type3": 36,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 1.0
-    },
-    {
-      "name": "🚀™菜妮丝源 [在线]",
-      "url": "https://tv.xn--yhqu5zs87a.top/",
       "sites": 37,
       "type3": 36,
       "jar_kb": 64.0,
