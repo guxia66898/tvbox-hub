@@ -40,7 +40,7 @@
       "sites": 172,
       "type3": 150,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.9
+      "l2_pass_rate": 1.0
     },
     {
       "name": "qist-电视聚合",
@@ -91,6 +91,14 @@
       "l2_pass_rate": null
     },
     {
+      "name": "🐯小虎斑线路",
+      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
+      "sites": 134,
+      "type3": 132,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
       "name": "XYQ 接口【apkck.top】",
       "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/debaters6/XYQ/master/0821.json",
       "sites": 124,
@@ -123,50 +131,50 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🐯小虎斑线路",
-      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
-      "sites": 117,
-      "type3": 115,
+      "name": "摸鱼接口【apkck.top】",
+      "url": "https://6800.kstore.vip/fish.json",
+      "sites": 111,
+      "type3": 111,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "🚀无邪┃摸鱼线路",
       "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.cc",
-      "sites": 111,
-      "type3": 111,
+      "sites": 109,
+      "type3": 109,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "🚀无邪┃摸鱼备用",
       "url": "http://fish.y456y.com",
-      "sites": 111,
-      "type3": 111,
+      "sites": 109,
+      "type3": 109,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "y456y摸鱼镜像",
+      "url": "http://www.y456y.com",
+      "sites": 109,
+      "type3": 109,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "摸鱼儿top镜像",
       "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top",
-      "sites": 111,
-      "type3": 111,
+      "sites": 109,
+      "type3": 109,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "🐟摸鱼接口 ┃ 4K极速 [1596ms]",
       "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top",
-      "sites": 111,
-      "type3": 111,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "摸鱼接口【apkck.top】",
-      "url": "https://6800.kstore.vip/fish.json",
-      "sites": 111,
-      "type3": 111,
+      "sites": 109,
+      "type3": 109,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -299,20 +307,12 @@
       "l2_pass_rate": null
     },
     {
-      "name": "youhunwl-王二小",
-      "url": "https://raw.githubusercontent.com/youhunwl/TVBox/master/%E7%8E%8B%E4%BA%8C%E5%B0%8F.txt",
-      "sites": 96,
-      "type3": 96,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
       "name": "chitue-dongli聚合",
       "url": "https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
       "sites": 93,
       "type3": 89,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.75
+      "l2_pass_rate": 1.0
     },
     {
       "name": "kstore16151线路",
@@ -320,7 +320,7 @@
       "sites": 93,
       "type3": 89,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.75
+      "l2_pass_rate": 1.0
     },
     {
       "name": "东篱接口【apkck.top】",
@@ -328,7 +328,7 @@
       "sites": 93,
       "type3": 89,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.75
+      "l2_pass_rate": 1.0
     },
     {
       "name": "🚀游魂┃东篱",
@@ -336,7 +336,7 @@
       "sites": 93,
       "type3": 89,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.75
+      "l2_pass_rate": 1.0
     },
     {
       "name": "🚀东篱线路 [在线]",
@@ -344,7 +344,7 @@
       "sites": 93,
       "type3": 89,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.75
+      "l2_pass_rate": 1.0
     },
     {
       "name": "kimwang1978-OK单仓",
@@ -424,7 +424,7 @@
       "sites": 43,
       "type3": 39,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.5
+      "l2_pass_rate": 0.75
     },
     {
       "name": "🚀游魂┃真心线路",
@@ -432,7 +432,7 @@
       "sites": 43,
       "type3": 39,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.5
+      "l2_pass_rate": 0.75
     },
     {
       "name": "菜妮丝💜线路",
