@@ -31,7 +31,7 @@
       "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
       "sites": 298,
       "type3": 298,
-      "jar_kb": 63.1,
+      "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
@@ -109,8 +109,8 @@
     {
       "name": "潇洒",
       "url": "https://9877.kstore.space/sun.json",
-      "sites": 117,
-      "type3": 117,
+      "sites": 119,
+      "type3": 119,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -200,7 +200,7 @@
       "sites": 101,
       "type3": 73,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.65
+      "l2_pass_rate": 0.7
     },
     {
       "name": "🚀5-Clun在线",
@@ -208,7 +208,7 @@
       "sites": 101,
       "type3": 73,
       "jar_kb": 64.0,
-      "l2_pass_rate": 0.65
+      "l2_pass_rate": 0.7
     },
     {
       "name": "🚀无邪┃王二小线路",
@@ -295,14 +295,6 @@
       "url": "https://www.iyouhun.com/tv/newwex",
       "sites": 100,
       "type3": 100,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "叙白王二小支持弹幕",
-      "url": "https://www.ls660.com/TV/wangxiaoer.json",
-      "sites": 98,
-      "type3": 98,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -473,6 +465,14 @@
       "type3": 27,
       "jar_kb": 64.0,
       "l2_pass_rate": 0.667
+    },
+    {
+      "name": "茄子接口【apkck.top】",
+      "url": "https://700sjro44343.vicp.fun/eggp/qzku/tv.json",
+      "sites": 31,
+      "type3": 30,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 1.0
     },
     {
       "name": "124IP-c1接口",
