@@ -37,8 +37,8 @@
     {
       "name": "niubihu1-1号单仓",
       "url": "https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json",
-      "sites": 172,
-      "type3": 150,
+      "sites": 170,
+      "type3": 149,
       "jar_kb": 64.0,
       "l2_pass_rate": 1.0
     },
@@ -51,7 +51,7 @@
       "l2_pass_rate": 0.733
     },
     {
-      "name": "🌱道长线路 ┃ DRPY旗舰 [226ms]",
+      "name": "🌱道长线路 ┃ DRPY旗舰 [96ms]",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
       "sites": 162,
       "type3": 147,
@@ -83,7 +83,15 @@
       "l2_pass_rate": 0.65
     },
     {
-      "name": "📺EasyTV ┃ 熵侦精选 [291ms]",
+      "name": "🐯小虎斑线路",
+      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
+      "sites": 139,
+      "type3": 137,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "📺EasyTV ┃ 熵侦精选 [319ms]",
       "url": "https://15318.kstore.space/easytv.jpg",
       "sites": 135,
       "type3": 135,
@@ -115,7 +123,7 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🌟潇洒线路 ┃ 优质备用 [564ms]",
+      "name": "🌟潇洒线路 ┃ 优质备用 [96ms]",
       "url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
       "sites": 116,
       "type3": 116,
@@ -163,7 +171,7 @@
       "l2_pass_rate": null
     },
     {
-      "name": "🐟摸鱼接口 ┃ 4K极速 [1596ms]",
+      "name": "🐟摸鱼接口 ┃ 4K极速 [669ms]",
       "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.top",
       "sites": 109,
       "type3": 109,
@@ -205,88 +213,80 @@
     {
       "name": "🚀无邪┃王二小线路",
       "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top",
-      "sites": 100,
-      "type3": 100,
+      "sites": 99,
+      "type3": 99,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "🚀无邪┃王二小备用",
       "url": "https://9280.kstore.vip/newwex.json",
-      "sites": 100,
-      "type3": 100,
+      "sites": 99,
+      "type3": 99,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "放牛娃💜线路",
       "url": "http://tv.999888987.xyz",
-      "sites": 100,
-      "type3": 100,
+      "sites": 99,
+      "type3": 99,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "kstore-wex",
       "url": "https://9280.kstore.space/wex.json",
-      "sites": 100,
-      "type3": 100,
+      "sites": 99,
+      "type3": 99,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "王二小放牛娃new镜像",
       "url": "http://new.xn--4kq62z5rby2qupq9ub.top",
-      "sites": 100,
-      "type3": 100,
+      "sites": 99,
+      "type3": 99,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "🚀游魂┃王二小线路",
       "url": "https://www.iyouhun.com/tv/wex",
-      "sites": 100,
-      "type3": 100,
+      "sites": 99,
+      "type3": 99,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
-      "name": "🚀王二小线 ┃ 综合推荐 [939ms]",
+      "name": "🚀王二小线 ┃ 综合推荐 [1116ms]",
       "url": "http://new.xn--4kq62z5rby2qupq9ub.top/",
-      "sites": 100,
-      "type3": 100,
+      "sites": 99,
+      "type3": 99,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "王二小备",
       "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top",
-      "sites": 100,
-      "type3": 100,
+      "sites": 99,
+      "type3": 99,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "🐂王二小🐮",
       "url": "https://9280.kstore.vip/aiwex.json",
-      "sites": 100,
-      "type3": 100,
+      "sites": 99,
+      "type3": 99,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
       "name": "wex.json",
       "url": "https://d.kstore.dev/download/9280/wex.json",
-      "sites": 100,
-      "type3": 100,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "🚀游魂┃王二小(新)",
-      "url": "https://www.iyouhun.com/tv/newwex",
-      "sites": 100,
-      "type3": 100,
+      "sites": 99,
+      "type3": 99,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -451,28 +451,28 @@
       "l2_pass_rate": 1.0
     },
     {
-      "name": "🚀6-FongMI线路",
-      "url": "https://raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
-      "sites": 33,
-      "type3": 27,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 0.667
-    },
-    {
       "name": "二月红",
       "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
-      "sites": 31,
-      "type3": 30,
+      "sites": 33,
+      "type3": 32,
       "jar_kb": 64.0,
       "l2_pass_rate": 1.0
     },
     {
       "name": "茄子接口【apkck.top】",
       "url": "https://700sjro44343.vicp.fun/eggp/qzku/tv.json",
-      "sites": 31,
-      "type3": 30,
+      "sites": 33,
+      "type3": 32,
       "jar_kb": 64.0,
       "l2_pass_rate": 1.0
+    },
+    {
+      "name": "🚀6-FongMI线路",
+      "url": "https://raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
+      "sites": 33,
+      "type3": 27,
+      "jar_kb": 64.0,
+      "l2_pass_rate": 0.667
     },
     {
       "name": "124IP-c1接口",
