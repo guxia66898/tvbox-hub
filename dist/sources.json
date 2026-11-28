@@ -11,14 +11,6 @@
       "l2_pass_rate": null
     },
     {
-      "name": "qist-OK影视js聚合",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/js.json",
-      "sites": 298,
-      "type3": 298,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
       "name": "🚀游魂┃高天流云",
       "url": "https://www.iyouhun.com/tv/gtly",
       "sites": 298,
@@ -31,14 +23,6 @@
       "url": "https://g.blfrp.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
       "sites": 298,
       "type3": 298,
-      "jar_kb": 63.1,
-      "l2_pass_rate": null
-    },
-    {
-      "name": "🌟道长",
-      "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/XYQTVBox/drpy_js/drjs_config.json",
-      "sites": 230,
-      "type3": 230,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -91,26 +75,18 @@
       "l2_pass_rate": 0.6
     },
     {
-      "name": "📺EasyTV ┃ 熵侦精选 [在线]",
-      "url": "https://15318.kstore.space/easytv.jpg",
-      "sites": 131,
-      "type3": 131,
+      "name": "🐯小虎斑线路",
+      "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
+      "sites": 145,
+      "type3": 143,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
     {
-      "name": "❤️天天开心",
-      "url": "https://play.iptv365.org/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api.json",
-      "sites": 126,
-      "type3": 124,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 0.5
-    },
-    {
-      "name": "🌟潇洒单仓pro",
-      "url": "https://github.com/niuber/niuber/raw/refs/heads/main/tvbox/TVBoxOSC/tvbox/api.json",
-      "sites": 125,
-      "type3": 125,
+      "name": "📺EasyTV ┃ 熵侦精选 [在线]",
+      "url": "https://15318.kstore.space/easytv.jpg",
+      "sites": 131,
+      "type3": 131,
       "jar_kb": 64.0,
       "l2_pass_rate": null
     },
@@ -259,14 +235,6 @@
       "l2_pass_rate": null
     },
     {
-      "name": "放牛娃💜线路",
-      "url": "http://tv.999888987.xyz",
-      "sites": 95,
-      "type3": 95,
-      "jar_kb": 64.0,
-      "l2_pass_rate": null
-    },
-    {
       "name": "kstore-wex",
       "url": "https://9280.kstore.space/wex.json",
       "sites": 95,
@@ -277,6 +245,54 @@
     {
       "name": "王二小放牛娃new镜像",
       "url": "http://new.xn--4kq62z5rby2qupq9ub.top",
+      "sites": 95,
+      "type3": 95,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "🚀游魂┃王二小线路",
+      "url": "https://www.iyouhun.com/tv/wex",
+      "sites": 95,
+      "type3": 95,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "🚀王二小线 ┃ 综合推荐 [在线]",
+      "url": "http://new.xn--4kq62z5rby2qupq9ub.top/",
+      "sites": 95,
+      "type3": 95,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "王二小备",
+      "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top",
+      "sites": 95,
+      "type3": 95,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "🐂王二小🐮",
+      "url": "https://9280.kstore.vip/aiwex.json",
+      "sites": 95,
+      "type3": 95,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "wex.json",
+      "url": "https://d.kstore.dev/download/9280/wex.json",
+      "sites": 95,
+      "type3": 95,
+      "jar_kb": 64.0,
+      "l2_pass_rate": null
+    },
+    {
+      "name": "🚀游魂┃王二小(新)",
+      "url": "https://www.iyouhun.com/tv/newwex",
       "sites": 95,
       "type3": 95,
       "jar_kb": 64.0,
@@ -331,24 +347,8 @@
       "l2_pass_rate": 1.0
     },
     {
-      "name": "❤️OK",
-      "url": "https://play.iptv365.org/OK/api.json",
-      "sites": 76,
-      "type3": 75,
-      "jar_kb": 25.3,
-      "l2_pass_rate": 1.0
-    },
-    {
       "name": "🚀游魂┃PG线路",
       "url": "https://www.iyouhun.com/tv/pg",
-      "sites": 74,
-      "type3": 68,
-      "jar_kb": 64.0,
-      "l2_pass_rate": 0.167
-    },
-    {
-      "name": "⚪PG⚪",
-      "url": "https://www.252035.xyz/p/jsm.json",
       "sites": 74,
       "type3": 68,
       "jar_kb": 64.0,
